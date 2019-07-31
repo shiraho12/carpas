@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+background: #f0f2f1;
+font-family: 'open Sans';
+}
+a{
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 56px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div { display: flex; flex-direction: row-reverse; }
+
+p { width: 100px; border: black 1px solid; margin: 2px; }
+  
